@@ -1,0 +1,253 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+.navigasi {
+    background-color: #3b4997;
+    width: 500%;
+    height: 70px;
+    color: white;
+    position: fixed;
+}
+
+.logo {
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.menu {
+    margin-left: 700px;
+    padding-top: 27px;
+}
+
+.menu ul li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu ul li a:hover {
+    color: lightskyblue;
+    font-style: italic;
+}
+
+
+.banner {
+    background-image: url('./../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-color: transparent;
+    height: 700px;
+    text-align: center;
+    color: white;
+}
+
+.banner img {
+    border-radius: 100px;
+    height: 150px;
+    border: 6px solid white;
+    margin-top: 100px;
+}
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.banner button {
+    margin-top: 60px;
+    padding: 10px;
+    width: 400px;
+    border-radius: 50px;
+    border: none;
+}
+
+.banner button:hover {
+    background-color: #3b5999;
+    border: 1px solid white;
+    color: white;
+}
+
+h1 span:before {
+    content: '';
+    animation: gerak infinite 8s ease;
+    transform: translateY(-50%);
+    color: lightblue;
+    font-size: 50px;
+}
+
+@keyframes gerak {
+    0% {
+        content: 'Selamat Datang';
+    }
+
+    50% {
+        content: 'Saya Thalia Amanda';
+    }
+
+    100% {
+        content: 'Terima Kasih Sudah Singgah!';
+    }
+}
+
+.box-about {
+    background-image: url('./../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    text-align: center;
+    margin-top: 0px;
+    align-content: center;
+    color: darkkhaki;
+}
+
+.box-about p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 50px;
+}
+
+.box-education {
+    background-image: url('./../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    text-align: center;
+    margin-top: 0px;
+    align-content: center;
+    color: darkkhaki;
+    margin-top: 0px;
+}
+
+.box-education h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.box-experience {
+    background-image: url('./../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    text-align: center;
+    margin-top: 0px;
+    align-content: center;
+    color: darkkhaki;
+    margin-top: 0px;
+}
+
+.box-experience p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 50px;
+}
+
+.box-work {
+    background-image: url('./../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 560px;
+    text-align: center;
+    margin-top: 0px;
+    align-content: center;
+    color: darkkhaki;
+    margin-top: 0px;
+}
+
+.box-work p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 50px;
+}
+
+.box-blog {
+    background-image: url('./../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 580px;
+    text-align: center;
+    color: chocolate;
+    margin-top: 0px;
+    align-content: center;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 320px;
+    background-color: wheat;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-kiri:hover, .box-tengah:hover, .box-kanan:hover {
+    background-color: #3b5999;
+    color: white;
+}
+
+.box-blog h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.box-skill {
+    background-image: url('./../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 630px;
+    text-align: center;
+    color: darkkhaki;
+    margin-top: 0px;
+    padding: 10px;
+    align-content: center;
+}
+
+.box-kiri, .box-tengah, .box-kanan {
+    width: 300px;
+    height: 400px;
+    background-color: wheat;
+    text-align: center;
+    padding: 30px 30px;
+    margin: 70px 20px 20px 55px;
+    border-radius: 10px;
+    float: left;
+}
+
+.box-skill h3, p {
+    margin-top: 10px;
+    margin-bottom: 13px;
+    padding: 0px 20px;
+}
+
+.box-kontak img {
+    width: 150px;
+    height: auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.box-kontak {
+    background-image: url('./../img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: greenyellow;
+    margin-top: 0px;
+    padding: 30px;
+}
+
